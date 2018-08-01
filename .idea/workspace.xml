@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fe593b7-7121-4e3c-ad7d-4d308b60d57f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cifar10/cifar10.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cifar10/cifar10_input.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fully_connected_feed.py" afterPath="$PROJECT_DIR$/fully_connected_feed.py" />
     </list>
     <ignored path="001mylearn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,6 +19,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/mytf_learn$fully_connected_feed.coverage" NAME="fully_connected_feed Coverage Results" MODIFIED="1532688645439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/001mylearn$MNIST_train.coverage" NAME="MNIST_train Coverage Results" MODIFIED="1531756747474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mytf_learn$cifar10_input.coverage" NAME="cifar10_input Coverage Results" MODIFIED="1533116242807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cifar10" />
     <SUITE FILE_PATH="coverage/mytf_learn$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1532619468868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/001mylearn$start.coverage" NAME="start Coverage Results" MODIFIED="1531499152928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/001mylearn$input_data.coverage" NAME="input_data Coverage Results" MODIFIED="1531753571735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -31,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="fully_connected_feed.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fully_connected_feed.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fully_connected_feed.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-379">
-              <caret line="249" column="3" selection-start-line="249" selection-start-column="3" selection-end-line="249" selection-end-column="3" />
+            <state relative-caret-position="3381">
+              <caret line="147" column="28" selection-start-line="147" selection-start-column="21" selection-end-line="147" selection-end-column="28" />
               <folding>
                 <element signature="e#760#798#0" expanded="true" />
               </folding>
@@ -44,20 +46,54 @@
         </entry>
       </file>
       <file leaf-file-name="mnist.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py">
+        <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/examples/tutorials/mnist/mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1260">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="495">
+              <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mnist.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/examples/tutorials/mnist/mnist.py">
+      <file leaf-file-name="cifar10_input.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cifar10/cifar10_input.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+            <state relative-caret-position="3036">
+              <caret line="132" column="38" selection-start-line="132" selection-start-column="38" selection-end-line="132" selection-end-column="38" />
+              <folding>
+                <element signature="e#737#775#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cifar10.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cifar10/cifar10.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="135" column="11" selection-start-line="135" selection-start-column="11" selection-end-line="135" selection-end-column="11" />
+              <folding>
+                <element signature="e#1240#1278#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image_ops_impl.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/ops/image_ops_impl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="285" column="21" selection-start-line="285" selection-start-column="21" selection-end-line="285" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="summary.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/summary/summary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="110" column="6" selection-start-line="110" selection-start-column="6" selection-end-line="110" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -84,6 +120,8 @@
         <option value="$PROJECT_DIR$/mnist++.py" />
         <option value="$PROJECT_DIR$/mnist.py" />
         <option value="$PROJECT_DIR$/fully_connected_feed.py" />
+        <option value="$PROJECT_DIR$/cifar10/cifar10_input.py" />
+        <option value="$PROJECT_DIR$/cifar10/cifar10.py" />
       </list>
     </option>
   </component>
@@ -129,7 +167,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -142,33 +180,172 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytf_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 3.6.5 (D:\ProgramData\Anaconda3\python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytf_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 3.6.5 (D:\ProgramData\Anaconda3\python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytf_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 3.6.5 (D:\ProgramData\Anaconda3\python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tensorflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytf_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 3.6.5 (D:\ProgramData\Anaconda3\python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tensorflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytf_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 3.6.5 (D:\ProgramData\Anaconda3\python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytf_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 3.6.5 (D:\ProgramData\Anaconda3\python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Anaconda3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytf_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytf_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytf_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytf_learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cifar10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="D:/ProgramData/Anaconda3/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Python.fully_connected_feed">
-    <configuration default="false" name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="001mylearn" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="001mylearn" is-module-sdk="true" working-directory="$PROJECT_DIR$">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="001mylearn" />
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$" />
+        <option name="myAddSourceRoots" value="true" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.cifar10_input">
     <configuration default="false" name="MNIST_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,6 +414,24 @@
       <module name="001mylearn" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cifar10_input" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cifar10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="001mylearn" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cifar10/cifar10_input.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -450,19 +645,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.start" />
-      <item index="1" class="java.lang.String" itemvalue="Python.MNIST_train" />
-      <item index="2" class="java.lang.String" itemvalue="Python.input_data" />
-      <item index="3" class="java.lang.String" itemvalue="Python.fully_connected_feed" />
-      <item index="4" class="java.lang.String" itemvalue="Python.mnist" />
+      <item index="0" class="java.lang.String" itemvalue="Python.MNIST_train" />
+      <item index="1" class="java.lang.String" itemvalue="Python.input_data" />
+      <item index="2" class="java.lang.String" itemvalue="Python.fully_connected_feed" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mnist" />
+      <item index="4" class="java.lang.String" itemvalue="Python.cifar10_input" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.fully_connected_feed" />
-        <item index="1" class="java.lang.String" itemvalue="Python.mnist" />
-        <item index="2" class="java.lang.String" itemvalue="Python.MNIST_train" />
-        <item index="3" class="java.lang.String" itemvalue="Python.input_data" />
-        <item index="4" class="java.lang.String" itemvalue="Python.start" />
+        <item index="0" class="java.lang.String" itemvalue="Python.cifar10_input" />
+        <item index="1" class="java.lang.String" itemvalue="Python.fully_connected_feed" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mnist" />
+        <item index="3" class="java.lang.String" itemvalue="Python.MNIST_train" />
+        <item index="4" class="java.lang.String" itemvalue="Python.input_data" />
       </list>
     </recent_temporary>
   </component>
@@ -483,17 +678,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1911" y="-9" width="1938" height="1092" extended-state="0" />
+    <frame x="1911" y="-9" width="1938" height="1092" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2672414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26702702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2545946" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26864865" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -502,7 +698,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -535,7 +730,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -544,13 +739,88 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fully_connected_feed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3243">
+          <caret line="141" column="29" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
+          <folding>
+            <element signature="e#760#798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/examples/tutorials/mnist/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fully_connected_feed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#760#798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/examples/tutorials/mnist/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fully_connected_feed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#760#798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/examples/tutorials/mnist/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MNIST_train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2231">
           <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#24#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -558,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -576,7 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,9 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#24#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,7 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,9 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#24#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,9 +943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2231">
           <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#24#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -692,7 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,7 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="373" column="0" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,7 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="249" column="0" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="296" column="18" selection-start-line="296" selection-start-column="18" selection-end-line="296" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,7 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="310" column="0" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="554" column="0" selection-start-line="554" selection-start-column="0" selection-end-line="554" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="372" column="36" selection-start-line="372" selection-start-column="36" selection-end-line="372" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,13 +1006,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2737">
           <caret line="125" column="17" selection-start-line="125" selection-start-column="17" selection-end-line="125" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/argparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1357">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/ops/gen_array_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3323">
+          <caret line="6122" column="48" selection-start-line="6122" selection-start-column="48" selection-end-line="6122" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1260">
+        <state relative-caret-position="552">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
@@ -770,18 +1034,72 @@
     </entry>
     <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/examples/tutorials/mnist/mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+        <state relative-caret-position="495">
+          <caret line="121" column="21" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/tools/api/generator/api/image/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#151#214#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/ops/math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="750" column="14" selection-start-line="750" selection-start-column="14" selection-end-line="750" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/summary/summary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="110" column="6" selection-start-line="110" selection-start-column="6" selection-end-line="110" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fully_connected_feed.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-379">
-          <caret line="249" column="3" selection-start-line="249" selection-start-column="3" selection-end-line="249" selection-end-column="3" />
+        <state relative-caret-position="3381">
+          <caret line="147" column="28" selection-start-line="147" selection-start-column="21" selection-end-line="147" selection-end-column="28" />
           <folding>
             <element signature="e#760#798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cifar10/cifar10_input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3036">
+          <caret line="132" column="38" selection-start-line="132" selection-start-column="38" selection-end-line="132" selection-end-column="38" />
+          <folding>
+            <element signature="e#737#775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/ops/image_ops_impl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="285" column="21" selection-start-line="285" selection-start-column="21" selection-end-line="285" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cifar10/cifar10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="135" column="11" selection-start-line="135" selection-start-column="11" selection-end-line="135" selection-end-column="11" />
+          <folding>
+            <element signature="e#1240#1278#0" expanded="true" />
           </folding>
         </state>
       </provider>
