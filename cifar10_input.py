@@ -125,7 +125,7 @@ def _generate_image_and_label_batch(image, label, min_queue_examples,
       min_after_dequeue=min_queue_examples)
 
   # Display the training images in the visualizer.
-  tf.image_summary('images', images)
+  tf.summary.image('images', images)
 
   return images, tf.reshape(label_batch, [batch_size])
 
@@ -161,7 +161,7 @@ def distorted_inputs(data_dir, batch_size):
   # distortions applied to the image.
 
   # Randomly crop a [height, width] section of the image.
-  distorted_image = tf.image.random_crop(reshaped_image, [height, width])
+  distorted_image = tf.random_crop(reshaped_image, [height, width])
 
   # Randomly flip the image horizontally.
   distorted_image = tf.image.random_flip_left_right(distorted_image)
@@ -174,7 +174,7 @@ def distorted_inputs(data_dir, batch_size):
                                              lower=0.2, upper=1.8)
 
   # Subtract off the mean and divide by the variance of the pixels.
-  float_image = tf.image.per_image_whitening(distorted_image)
+  float_image = tf.image.per_image_standardization(distorted_image)
 
   # Ensure that the random shuffling has good mixing properties.
   min_fraction_of_examples_in_queue = 0.4
@@ -228,7 +228,7 @@ def inputs(eval_data, data_dir, batch_size):
                                                          width, height)
 
   # Subtract off the mean and divide by the variance of the pixels.
-  float_image = tf.image.per_image_whitening(resized_image)
+  float_image = tf.image.per_image_standardization(resized_image)
 
   # Ensure that the random shuffling has good mixing properties.
   min_fraction_of_examples_in_queue = 0.4

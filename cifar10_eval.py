@@ -43,15 +43,16 @@ from tensorflow.python.platform import gfile
 import numpy as np
 import tensorflow as tf
 
-from tensorflow.models.image.cifar10 import cifar10
+#from tensorflow.models.image.cifar10 import cifar10
+import cifar10
 
 FLAGS = tf.app.flags.FLAGS
 
-tf.app.flags.DEFINE_string('eval_dir', '/tmp/cifar10_eval',
+tf.app.flags.DEFINE_string('eval_dir', '../tmp/cifar10_eval',
                            """Directory where to write event logs.""")
 tf.app.flags.DEFINE_string('eval_data', 'test',
                            """Either 'test' or 'train_eval'.""")
-tf.app.flags.DEFINE_string('checkpoint_dir', '/tmp/cifar10_train',
+tf.app.flags.DEFINE_string('checkpoint_dir', '../tmp/cifar10_train',
                            """Directory where to read model checkpoints.""")
 tf.app.flags.DEFINE_integer('eval_interval_secs', 60 * 5,
                             """How often to run the eval.""")
@@ -136,10 +137,10 @@ def evaluate():
     saver = tf.train.Saver(variables_to_restore)
 
     # Build the summary operation based on the TF collection of Summaries.
-    summary_op = tf.merge_all_summaries()
+    summary_op = tf.summary.merge_all()
 
     graph_def = tf.get_default_graph().as_graph_def()
-    summary_writer = tf.train.SummaryWriter(FLAGS.eval_dir,
+    summary_writer = tf.summary.FileWriter(FLAGS.eval_dir,
                                             graph_def=graph_def)
 
     while True:
