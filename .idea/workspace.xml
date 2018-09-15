@@ -39,14 +39,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cifar10_train.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cifar10_train.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cifar10_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
-              <folding>
-                <element signature="e#1313#1351#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="299">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cifar10.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cifar10.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cifar10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="357" column="24" selection-start-line="357" selection-start-column="24" selection-end-line="357" selection-end-column="24" />
+            <state relative-caret-position="2075">
+              <caret line="369" column="0" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
               <folding>
                 <element signature="e#1246#1284#0" expanded="true" />
               </folding>
@@ -145,8 +143,8 @@
         <option value="$PROJECT_DIR$/cifar10_eval.py" />
         <option value="$PROJECT_DIR$/cifar10_input_test.py" />
         <option value="$PROJECT_DIR$/cifar10_input.py" />
-        <option value="$PROJECT_DIR$/cifar10_train.py" />
         <option value="$PROJECT_DIR$/cifar10.py" />
+        <option value="$PROJECT_DIR$/cifar10_train.py" />
       </list>
     </option>
   </component>
@@ -641,7 +639,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -994,16 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cifar10_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
-          <folding>
-            <element signature="e#1313#1351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/platform/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -1014,11 +1002,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cifar10.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="357" column="24" selection-start-line="357" selection-start-column="24" selection-end-line="357" selection-end-column="24" />
+        <state relative-caret-position="2075">
+          <caret line="369" column="0" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
           <folding>
             <element signature="e#1246#1284#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cifar10_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
