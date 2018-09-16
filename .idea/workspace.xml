@@ -18,7 +18,7 @@
     <SUITE FILE_PATH="coverage/mytf_learn$cifar10_input.coverage" NAME="cifar10_input Coverage Results" MODIFIED="1533116242807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cifar10" />
     <SUITE FILE_PATH="coverage/mytf_learn$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1532619468868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mytf_learn$cifar10_input_test.coverage" NAME="cifar10_input_test Coverage Results" MODIFIED="1533355054033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mytf_learn$cifar10_train.coverage" NAME="cifar10_train Coverage Results" MODIFIED="1536979544435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mytf_learn$cifar10_train.coverage" NAME="cifar10_train Coverage Results" MODIFIED="1537087204027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/001mylearn$start.coverage" NAME="start Coverage Results" MODIFIED="1531499152928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/001mylearn$input_data.coverage" NAME="input_data Coverage Results" MODIFIED="1531753571735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -42,8 +42,8 @@
       <file leaf-file-name="cifar10_train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cifar10_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+            <state relative-caret-position="183">
+              <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
               <folding>
                 <element signature="e#1313#1351#0" expanded="true" />
               </folding>
@@ -51,23 +51,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
-        <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/platform/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cifar10_input.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cifar10_input.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
+            <state relative-caret-position="2562">
+              <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="4" />
               <folding>
-                <element signature="e#739#777#0" expanded="true" />
+                <marker date="1537027491482" expanded="true" signature="0:676" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="739:1029" ph="import ..." />
+                <marker date="1537027491482" expanded="true" signature="1031:1251" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="1455:3844" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="1458:2305" ph="&quot;&quot;&quot;Reads and parses examples from CIFAR10 data files....&quot;&quot;&quot;" />
+                <marker date="1537027491482" expanded="true" signature="2337:2346" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="2377:2522" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="2682:2782" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="2829:3006" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="3412:3548" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="3965:4961" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="3968:4431" ph="&quot;&quot;&quot;Construct a queued batch of images and labels....&quot;&quot;&quot;" />
+                <marker date="1537027491482" expanded="true" signature="4434:4549" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="5007:7301" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="5010:5332" ph="&quot;&quot;&quot;Construct distorted input for CIFAR training using the Reader ops....&quot;&quot;&quot;" />
+                <marker date="1537027491482" expanded="true" signature="5348:5432" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="5455:5535" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="5860:6022" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="6209:6318" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="6951:7055" ph="'...'" />
+                <marker date="1537027491482" expanded="true" signature="7351:7743" ph="&quot;&quot;&quot;Construct input for CIFAR evaluation using the Reader ops....&quot;&quot;&quot;" />
+                <marker date="1537027491482" expanded="true" signature="7763:7930" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="7781:7867" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="7938:8058" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="8081:8161" ph="..." />
+                <marker date="1537027491482" expanded="true" signature="8486:8571" ph="..." />
               </folding>
             </state>
           </provider>
@@ -76,8 +91,8 @@
       <file leaf-file-name="cifar10.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cifar10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="357" column="24" selection-start-line="357" selection-start-column="24" selection-end-line="357" selection-end-column="24" />
+            <state relative-caret-position="364">
+              <caret line="196" column="30" selection-start-line="196" selection-start-column="30" selection-end-line="196" selection-end-column="30" />
               <folding>
                 <element signature="e#1246#1284#0" expanded="true" />
               </folding>
@@ -88,7 +103,7 @@
       <file leaf-file-name="nn_ops.py" pinned="false" current-in-tab="false">
         <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/ops/nn_ops.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="39417">
               <caret line="1903" column="37" selection-start-line="1903" selection-start-column="4" selection-end-line="1903" selection-end-column="37" />
               <folding />
             </state>
@@ -98,7 +113,7 @@
       <file leaf-file-name="cifar10_eval.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cifar10_eval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
+            <state relative-caret-position="567">
               <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
               <folding>
                 <element signature="e#1213#1251#0" expanded="true" />
@@ -110,7 +125,7 @@
       <file leaf-file-name="cifar10_input_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cifar10_input_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1219">
+            <state relative-caret-position="1113">
               <caret line="64" column="49" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
               <folding>
                 <element signature="e#710#748#0" expanded="true" />
@@ -157,10 +172,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1911" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1092" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -241,7 +256,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -589,17 +604,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1911" y="-9" width="1938" height="1092" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28648648" sideWeight="0.49555555" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.50216216" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32777777" sideWeight="0.49783784" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27351353" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32744566" sideWeight="0.49783784" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27801725" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880434" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28648648" sideWeight="0.5044444" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -608,7 +624,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -898,7 +913,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cifar10_input_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
+        <state relative-caret-position="1113">
           <caret line="64" column="49" selection-start-line="64" selection-start-column="49" selection-end-line="64" selection-end-column="49" />
           <folding>
             <element signature="e#710#748#0" expanded="true" />
@@ -962,23 +977,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="280" column="4" selection-start-line="280" selection-start-column="4" selection-end-line="280" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cifar10_input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
+        <state relative-caret-position="2562">
+          <caret line="133" column="4" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="4" />
           <folding>
-            <element signature="e#739#777#0" expanded="true" />
+            <marker date="1537027491482" expanded="true" signature="0:676" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="739:1029" ph="import ..." />
+            <marker date="1537027491482" expanded="true" signature="1031:1251" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="1455:3844" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="1458:2305" ph="&quot;&quot;&quot;Reads and parses examples from CIFAR10 data files....&quot;&quot;&quot;" />
+            <marker date="1537027491482" expanded="true" signature="2337:2346" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="2377:2522" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="2682:2782" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="2829:3006" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="3412:3548" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="3965:4961" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="3968:4431" ph="&quot;&quot;&quot;Construct a queued batch of images and labels....&quot;&quot;&quot;" />
+            <marker date="1537027491482" expanded="true" signature="4434:4549" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="5007:7301" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="5010:5332" ph="&quot;&quot;&quot;Construct distorted input for CIFAR training using the Reader ops....&quot;&quot;&quot;" />
+            <marker date="1537027491482" expanded="true" signature="5348:5432" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="5455:5535" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="5860:6022" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="6209:6318" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="6951:7055" ph="'...'" />
+            <marker date="1537027491482" expanded="true" signature="7351:7743" ph="&quot;&quot;&quot;Construct input for CIFAR evaluation using the Reader ops....&quot;&quot;&quot;" />
+            <marker date="1537027491482" expanded="true" signature="7763:7930" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="7781:7867" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="7938:8058" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="8081:8161" ph="..." />
+            <marker date="1537027491482" expanded="true" signature="8486:8571" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/ops/nn_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="39417">
           <caret line="1903" column="37" selection-start-line="1903" selection-start-column="4" selection-end-line="1903" selection-end-column="37" />
           <folding />
         </state>
@@ -986,7 +1025,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cifar10_eval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
+        <state relative-caret-position="567">
           <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
           <folding>
             <element signature="e#1213#1251#0" expanded="true" />
@@ -994,28 +1033,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/platform/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cifar10_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+        <state relative-caret-position="183">
+          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
           <folding>
             <element signature="e#1313#1351#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/platform/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cifar10.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="357" column="24" selection-start-line="357" selection-start-column="24" selection-end-line="357" selection-end-column="24" />
+        <state relative-caret-position="364">
+          <caret line="196" column="30" selection-start-line="196" selection-start-column="30" selection-end-line="196" selection-end-column="30" />
           <folding>
             <element signature="e#1246#1284#0" expanded="true" />
           </folding>
