@@ -47,6 +47,16 @@ import tensorflow as tf
 
 #from tensorflow.models.image.cifar10 import cifar10_input
 import cifar10_input
+#test stringIO PIL
+'''
+import PIL.Image
+from io import StringIO
+import numpy as np
+file = StringIO()
+img = np.zeros([400,400,3],np.uint8)    #创建一个三维数组高400，宽400，信号通道3个，初始都为0，每通道占8位个
+img[:,:,0] = np.ones([400,400])*255     #将0号通道下[400,400]面积使用ones设置为1，之后乘以255，将其设置为255，注意：3个信道分别是b,g,r所以这里显示为蓝色
+PIL.Image.fromarray(img).save('./file.jpg','jpeg')
+'''
 
 FLAGS = tf.app.flags.FLAGS
 
